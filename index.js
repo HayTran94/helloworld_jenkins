@@ -2,7 +2,7 @@ var http = require('http');
 
 console.log("server is already start");
 
-const a = 0;
+let a = 0;
 
 http.createServer(function (req, res) {
     a ++;
